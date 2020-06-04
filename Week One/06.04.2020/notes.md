@@ -12,7 +12,7 @@ In Python there are data type objects called Scalars. These scalars are types wi
 
 You can use <code>type()</code> to see the type of object something is with the value going between the parenthesis.
 
-### Here's two examples from the primitives listed above; 'Int' & 'Bool'
+## Here's two examples from the primitives listed above; 'Int' & 'Bool'
 
 Int Example:
 
