@@ -1,5 +1,7 @@
 # Scalar Objects
 
+In Python there are data type objects called Scalars. These scalars are types with only one value. This would technically not include a String even though it's a data type object. However it is not a Scalar because in python a string is actually an array of characters!
+
 <code>Int-</code> represent <code>integers</code>, ex. <code>5</code> 
 
 <code>Float</code> - represent <code>real numbers</code>, ex. <code>3.27</code>
@@ -25,4 +27,8 @@ Bool Example:
 in[1]: type(True)
 out[1]: bool
 ```
+
+# Type Conversions Cast
+
+You can convert scalars to other types using 'casting' to do so.
 
