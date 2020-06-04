@@ -1,6 +1,6 @@
 # Objects
 
-Here is where all the gae Aaron code stays
+Here is <code>where</code> all the gae Aaron code stays
 
 ## Sample Code
 
