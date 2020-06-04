@@ -138,3 +138,10 @@ i <= j # i is less than or equal to j
 i == j # Equality test, True, if i equals j
 i != j # Inequality test, True if i not equal to j
 ```
+
+# Logic operators on bools
+
+<code>not a</code> => True if a is false and False if a is True
+<code>a and b</code> => True if both are True
+<code>a or b</code> => True if either or both are True
+
