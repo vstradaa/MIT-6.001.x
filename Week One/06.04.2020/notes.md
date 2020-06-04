@@ -41,5 +41,5 @@ In[1]: int(3.9)
 Out[1]: 3
 ```
 
-Keep in mind that when downcasting a float to an int you are not rounding, you are simply removing the digits following the dot.
+Keep in mind that when downcasting a <code>float</code> to an <code>int</code> you are not rounding, you are simply removing the digits following the dot.
 
