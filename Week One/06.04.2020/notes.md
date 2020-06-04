@@ -162,7 +162,7 @@ They have three different parts
 Remember that the block of code to execute for the false test results is not required!
 
 ```python
-x = int(input('Enter an integer:'))
+x = int(input('Enter an integer: '))
 
 if x%2 == 0:
     print('')
@@ -175,3 +175,34 @@ print('Done with conditional')
 ```
 
 The above code is an example of a branching program using conditionals!
+It includes an if statement that says that "if the remainder of x/2 is 0" then it will pring the two statements in it's code block.
+
+else is for the false statement.
+
+You write a branching program using if/else statements
+
+```python
+
+if(condition):
+    #statement
+else:
+    #statement
+#end of statement
+```
+
+Indentation is important! It tells the program when the if/else statement has ended.
+You can also nest conditionals within conditionals such as the following:
+
+```python
+if x%2 == 0:
+    if x%3 == 0:
+        print('Divisible by 2 and 3')
+    else:
+        print('Divisible by 2 and not by 3')
+
+elif x%3 == 0:
+    print('Divisible by 3 and not by 2')
+```
+
+
+
