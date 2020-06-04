@@ -147,4 +147,15 @@ i != j # Inequality test, True if i not equal to j
 
 <code>a or b</code> => True if either or both are True
 
+A simple branching statement is a conditional
+
+They have three different parts
+
+1. A test (Expression that evaluates to True or False)
+
+2. A block of code to execute if the test is True
+
+3. An optional block of code to execute if the test is false
+
+Remember that the block of code to execute for the false test results is not required!
 
