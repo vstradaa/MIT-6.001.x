@@ -16,19 +16,30 @@ You can use <code>type()</code> to see the type of object something is with the 
 
 Int Example:
 
-```
+```python
 in[1]: type("example text")
 out[1]: str
 ```
 
 Bool Example:
 
-```
+```python
 in[1]: type(True)
 out[1]: bool
 ```
 
 # Type Conversions (Casting)
 
-You can convert scalars to other types using 'casting' to do so.
+You can convert scalars to other types using 'casting' to do so. (preferrably with numbers)
+
+```python
+in[1]: float(3)
+out[1]: 3.0
+```
+```python
+in[1]: int(3.9)
+out[1]: 3
+```
+
+Keep in mind that when downcasting a float to an int you are not rounding, you are simply removing the digits following the dot.
 
