@@ -206,7 +206,7 @@ elif x%3 == 0:
     print('Divisible by 3 and not by 2')
 ```
 
-# Compount booleans
+# Compound booleans
 
 ```python
 if x<y and x<z:
