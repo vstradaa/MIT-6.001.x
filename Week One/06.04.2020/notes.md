@@ -43,3 +43,19 @@ Out[1]: 3
 
 Keep in mind that when downcasting a <code>float</code> to an <code>int</code> you are not rounding, you are simply removing the digits following the dot.
 
+# Printing to the console
+
+When using the command prompt you are only seeing the final returned values. If you have a program that executes multiple lines of code and you want a specific value to be printed on the console, you can use the <code>print()</code> method!
+
+```python
+In[1]: print(3+2)
+Out[1]: 5
+```
+
+# Expression
+
+combine objects(variables, etc) and operators (+,-,*,etc)
+
+<code><object><operator><object></code>
+
+
