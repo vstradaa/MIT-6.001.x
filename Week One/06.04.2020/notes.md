@@ -220,3 +220,28 @@ else:
 
 You can have an if and an else; you can also have an if, one or multiple elif's, and an else.
 
+Summary for Branching programs:
+
+* Branching functions are useful to make decisions based on statements available to you
+* Each statement within a branching function is used at most once
+* The maximum time to run the program only depends on the length of the program.
+
+# Summary
+
+* In program there are data type objects called Scalars,  these are types with only one value. 
+
+* You can cast certain datatypes to other data types like ints and floats
+
+* You print to the console using <code>print()</code>
+* There are a few basic operations for arithmetic
+* When conducting Operations, the Python interpreter will execute code in PEMDAS fashion or from left to right.
+
+* You can bind a variable to a value by initializing a variable and assigning it a value with the = sign.
+
+* There are also comparison operators that evaluate to true or false
+* There are also logic operators on bools for a more specific control flow
+* Branching programs use if/elif/else to create conditional statements that execute code based on the condition
+* You can nest conditionals within conditionals
+* Compound Booleans use comparison operators and logic boolean comparison operators
+
+
