@@ -189,8 +189,10 @@ else:
     #statement
 #end of statement
 ```
-
 Indentation is important! It tells the program when the if/else statement has ended.
+
+# Nested Conditionals
+
 You can also nest conditionals within conditionals such as the following:
 
 ```python
