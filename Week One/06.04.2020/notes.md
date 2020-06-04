@@ -56,6 +56,8 @@ Out[1]: 5
 
 combine objects(variables, etc) and operators (+,-,*,etc)
 
-<code><object><operator><object></code>
+```python
+<object><operator><object>
+```
 
 
