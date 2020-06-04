@@ -10,7 +10,7 @@ In Python there are data type objects called Scalars. These scalars are types wi
 
 <code>Int</code> - <code>special</code>, with only one value: <code>None</code>
 
-You can use <code> type() </code> to see the type of object something is with the value going between the paranthesis.
+You can use <code>type()</code> to see the type of object something is with the value going between the paranthesis.
 
 ### Here's two examples from the primitives listed above; 'Int' & 'Bool'
 
@@ -28,7 +28,7 @@ in[1]: type(True)
 out[1]: bool
 ```
 
-# Type Conversions Cast
+# Type Conversions (Casting)
 
 You can convert scalars to other types using 'casting' to do so.
 
