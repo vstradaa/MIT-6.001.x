@@ -12,14 +12,14 @@ You can use <code> type() </code> to see the type of object something is with th
 
 ### Here's two examples from the primitives listed above; 'Int' & 'Bool'
 
-Int Example
+Int Example:
 
 ```
 in[1]: type("example text")
 out[1]: str
 ```
 
-Bool Example
+Bool Example:
 
 ```
 in[1]: type(True)
