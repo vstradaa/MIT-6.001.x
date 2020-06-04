@@ -206,5 +206,17 @@ elif x%3 == 0:
     print('Divisible by 3 and not by 2')
 ```
 
+# Compount booleans
 
+```python
+if x<y and x<z:
+    print('x is least')
+elif y < z:
+    print('y is least')
+else:
+    print('z is least')
+```
+elif means to check if another condition is true. Remember else is for the false (last option)
+
+You can have an if and an else; you can also have an if, one or multiple elif's, and an else.
 
