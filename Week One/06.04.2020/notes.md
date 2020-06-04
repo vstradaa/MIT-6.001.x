@@ -60,4 +60,18 @@ combine objects(variables, etc) and operators (+,-,*,etc)
 <object><operator><object>
 ```
 
+or
+
+```python
+i+j #the sum
+i-j #the difference
+i*j #the product
+i/j #division
+i//j #int division (result is int without remainder ex. 4.5 ==> 4)
+i%j #the remainder when i is divided by j
+i**j #i to the power of j
+```
+
+When operating with ints and floats the fuller form is what dominates. Meaning that if you add an int with a float the result will be a float. Think of it this way. 3.3 + 3 is going to be 6.3 so it makes sense that 3.00000000000001 + 3 equals 6.00000000000001 and by that knowledge 3.0 + 3 equals 6.0. If they're both ints then the answer is an int!
+
 
