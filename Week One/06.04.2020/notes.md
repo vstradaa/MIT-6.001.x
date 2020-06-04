@@ -1,6 +1,6 @@
 # Scalar Objects
 
-<code>Int</code> - represent <code>integers</code>, ex. <code>5</code> 
+### Int- represent <code>integers</code>, ex. <code>5</code> 
 
 <code>Float</code> - represent <code>real numbers</code>, ex. <code>3.27</code>
 
