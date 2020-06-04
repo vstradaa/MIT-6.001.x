@@ -116,3 +116,9 @@ area = pi * (radius ** 2)
 
 radius = radius + 1 # because radius was reassigned/updated after area, the area variable will not be reassigned/updated 
 ```
+
+You can rewrite the last area reassignment in shorthand form by using <code>+=</code>
+
+```python
+radius += 1
+```
