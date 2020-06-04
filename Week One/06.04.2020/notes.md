@@ -74,4 +74,8 @@ i**j #i to the power of j
 
 When operating with ints and floats the fuller form is what dominates. Meaning that if you add an int with a float the result will be a float. Think of it this way. 3.3 + 3 is going to be 6.3 so it makes sense that 3.00000000000001 + 3 equals 6.00000000000001 and by that knowledge 3.0 + 3 equals 6.0. If they're both ints then the answer is an int!
 
+# Simple Operations
 
+When doing operations in pythong remember PEMDAS! The python interpreter will follow these rules by heart and if you don't specify hierarchy, your code might fall with a semantic error (An unintended meaning is given to your program).
+
+In normal operations without parenthesis, all code will be executed from left to write as you would in a normal math problem!
