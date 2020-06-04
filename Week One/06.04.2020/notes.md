@@ -79,3 +79,40 @@ When operating with ints and floats the fuller form is what dominates. Meaning t
 When doing operations in pythong remember PEMDAS! The python interpreter will follow these rules by heart and if you don't specify hierarchy, your code might fall with a semantic error (An unintended meaning is given to your program).
 
 In normal operations without parenthesis, all code will be executed from left to write as you would in a normal math problem!
+
+# Binding variables and values
+
+The <code>=</code> sign is an assignment of a value to a variable. 
+
+```python
+pi = 3.14159
+```
+
+or
+
+```python
+pi_approx = 22/7
+```
+
+This value is stored in computer memory and can be called with a variable name.
+
+The benefits of adding names to the values of expressions are:
+
+* You can reuse names instead of values
+* It's easier to change your code later. 
+
+# Programming vs Math
+
+In programming you don't solve for "X"
+You have to define values for variables always!
+
+```python
+pi = 3.14159
+radius = 2.2
+
+# area of a circle
+
+area = pi * (radius ** 2)
+
+radius = radius + 1 # because radius was reassigned/updated after area, the area variable will not be reassigned/updated 
+```
