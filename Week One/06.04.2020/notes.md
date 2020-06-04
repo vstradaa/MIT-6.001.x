@@ -122,3 +122,19 @@ You can rewrite the last area reassignment in shorthand form by using <code>+=</
 ```python
 radius += 1
 ```
+
+# Comparison operators on int and float
+
+This will give your program the ability to make decisions based on tests. These results will usually evaluate to true or false before moving on to the next part of the program
+
+Here are some tests you can perform on two or more ints/floats:
+
+```python
+i > j # i is greater than j
+i >= j # i is greater than or equal to j
+i < j # i is less than j
+i <= j # i is less than or equal to j
+
+i == j # Equality test, True, if i equals j
+i != j # Inequality test, True if i not equal to j
+```
