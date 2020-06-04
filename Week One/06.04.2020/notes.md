@@ -161,3 +161,17 @@ They have three different parts
 
 Remember that the block of code to execute for the false test results is not required!
 
+```python
+x = int(input('Enter an integer:'))
+
+if x%2 == 0:
+    print('')
+    print('Even')
+
+else:
+    print('')
+    print('Odd')
+print('Done with conditional')
+```
+
+The above code is an example of a branching program using conditionals!
