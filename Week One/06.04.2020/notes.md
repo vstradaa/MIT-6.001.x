@@ -10,7 +10,7 @@ In Python there are data type objects called Scalars. These scalars are types wi
 
 <code>Bool</code> - represent <code>booleans</code>, ex. <code>True</code> and <code>False</code>
 
-<code>Int</code> - <code>special</code>, with only one value: <code>None</code>
+<code>NoneType</code> - <code>special</code>, with only one value: <code>None</code>
 
 You can use <code>type()</code> to see the type of object something is with the value going between the parenthesis.
 
