@@ -1,3 +1,5 @@
+# MIT 6.001.X Computer Science
+
 # Scalar Objects
 
 In Python there are data type objects called Scalars. These scalars are types with only one value. This would technically not include a String even though it's a data type object. However it is not a Scalar because in python a string is actually an array of characters!
