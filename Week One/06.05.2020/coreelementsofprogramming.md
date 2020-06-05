@@ -39,3 +39,33 @@ Successive concatenation allows you to basically multiply a string!
 
 ### Length or len()
 
+You can also see how many characters are in a string by using len()
+```python
+len('eric is') # console returns, '7' it also includes the space!
+```
+### Getting Elements from Strings
+
+In Python since Strings are made of multiple characters, it makes sense that you can take out these individual characters. We can do this by using square brackets. 
+
+```python
+'myName'[1] #We'd like to think that number 1 would return the first character but it doesnt
+```
+
+the number within the brackets is called the 'index'. The index starts at 0 because to computers, the 0 is very useful. 
+
+So the above code block would actually return 'y'
+
+### Slicing or Getting Parts from the String
+
+You can also get parts of a string such as the last 3 letters of your name by referencing a starting point and an end point, where the end point is not included.
+
+For example:
+
+```python
+'myName'[1:3] # returns the index values from 1 to 2 not including the 3rd index
+'myName'[3:] # returns everything after the 3rd index
+'myName'[:4] # returns everything up to the 3rd index because it doesn't include the 4th index
+'myName'[:]  # returns a copy of the whole string
+```
+
+Using this we can return parts of a string to a variable, function, etc.
