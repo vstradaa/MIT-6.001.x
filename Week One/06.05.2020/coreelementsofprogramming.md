@@ -26,6 +26,8 @@ greeting = hi + " " + name # prints out "hello there Eric" Look at the previous 
 
 Also, <code> Overloading </code> is the term for when you use an operator on multiple types of operands. The type of operation that it performs is dependent on the datatype of these operands. For example, adding two ints will result in the summation of two ints. And adding two strings will result in the concatenation of two strings. 
 
+As we get further along, we'll eventually be able to create our own overloadable operators using functions!
+
 ### Successive Concatenation
 
 Successive concatenation allows you to basically multiply a string!
