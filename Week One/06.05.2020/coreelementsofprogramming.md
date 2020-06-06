@@ -69,3 +69,16 @@ For example:
 ```
 
 Using this we can return parts of a string to a variable, function, etc.
+
+# Input/Output
+
+We use the keyword <code>print()</code> to print things to the console.
+
+We can put a variable, expression, or a raw datatype in the the parenthesis
+
+When printing we can only concatenate strings. If there's a number you'd like to add to your string you must use a comma instead of a plus symbol.
+
+```python
+print(3,"dogs are outside") #if there are ints/floats you want to concatenate to a string
+```
+
