@@ -102,11 +102,11 @@ An Integrated Development Environment (IDE) and it allows you to edit and store 
 
 # Control Flow (while and for loops)
 
-### While Loop
+## While Loop
 
 More advanced versions of control flow will use a while loop. A while loop will execute a block of code while a condition is true. 
 
-#### Here's a game example:
+### Here's a game example:
 
 Say you are playing a game where it asks you to turn left or right. If you turn right it will continue to ask you to turn left or right because you are still in the same spot according to the program. 
 
@@ -119,7 +119,7 @@ while (leftOrRight == "right"):
     leftOrRight = input()
 print("game over!")
 ```
-# For Loop
+## For Loop
 
 A for loop is made for when you know how many times a program will execute. 
 You can end the program early with a <code>break</code> It even uses a counter!
