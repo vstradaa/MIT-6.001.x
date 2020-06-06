@@ -115,7 +115,20 @@ How do you translate this into a program?
 ```python
 leftOrRight = input()
 
-while leftOrRight == "right":
+while (leftOrRight == "right"):
     leftOrRight = input()
 print("game over!")
+```
+# For Loop
+
+A for loop is made for when you know how many times a program will execute. 
+You can end the program early with a <code>break</code> It even uses a counter!
+
+You can also rewrite a for loop using a while loop
+
+```python
+mySum = 0;
+for i in range(5,12,2):
+    mySum += i
+# if printed the answer will be the sum of every other number from 5 to (12 - 1)
 ```
