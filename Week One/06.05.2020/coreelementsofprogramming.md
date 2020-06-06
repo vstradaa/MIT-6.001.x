@@ -82,3 +82,16 @@ When printing we can only concatenate strings. If there's a number you'd like to
 print(3,"dogs are outside") #if there are ints/floats you want to concatenate to a string
 ```
 
+### Input
+
+If you're going to input something it's a good idea to bind it to a variable. To do this you can set a variable equal to <code>input()</code>.
+
+```python
+yourName = input()
+```
+
+Now input will only return a string. So if you want to input a number you have to cast it like so:
+
+```python
+yourAge = int(input())
+```
