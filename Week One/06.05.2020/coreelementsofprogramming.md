@@ -90,7 +90,7 @@ If you're going to input something it's a good idea to bind it to a variable. To
 yourName = input()
 ```
 
-Now input will only return a string. So if you want to input a number you have to cast it like so:
+Now input will only return a string. So if you want to input an int (not including floats) you have to cast it like so:
 
 ```python
 yourAge = int(input())
