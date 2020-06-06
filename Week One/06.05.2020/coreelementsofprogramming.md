@@ -95,3 +95,27 @@ Now input will only return a string. So if you want to input an int (not includi
 ```python
 yourAge = int(input())
 ```
+
+# IDE'S
+
+An Integrated Development Environment (IDE) and it allows you to edit and store files before you run them. It's a simple and easy way to write down code for later use/edits.
+
+# Control Flow (while and for loops)
+
+### While Loop
+
+More advanced versions of control flow will use a while loop. A while loop will execute a block of code while a condition is true. 
+
+#### Here's a game example:
+
+Say you are playing a game where it asks you to turn left or right. If you turn right it will continue to ask you to turn left or right because you are still in the same spot according to the program. 
+
+How do you translate this into a program?
+
+```python
+leftOrRight = input()
+
+while leftOrRight == "right":
+    leftOrRight = input()
+print("game over!")
+```
