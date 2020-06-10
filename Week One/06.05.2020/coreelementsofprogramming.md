@@ -132,3 +132,4 @@ for i in range(5,12,2):
     mySum += i
 # if printed the answer will be the sum of every other number from 5 to (12 - 1)
 ```
+
