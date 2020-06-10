@@ -2,4 +2,4 @@
 
 ## - Victor E. 06/05/2020
 
-# Simple Algorithm
+# Simple Algorithms
