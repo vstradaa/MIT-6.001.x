@@ -37,4 +37,13 @@ while not guessTrue:
 ```
 
 # Floats and Fractions
-#### John Guttag - MIT Professor
+
+When working with floats it is important to keep in mind that most of the time, approximation is used when a computer intreprets numbers. 
+
+## Binary 
+
+Binary is in base 2. 
+
+To get an understanding of how this works let's look at how we represent a decimal number. 
+
+ <code>130 is the same as (10**2) + (3) * (10 ** 1) + (0) * (10 ** 0)</code>
