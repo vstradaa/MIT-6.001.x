@@ -35,3 +35,6 @@ while not guessTrue:
         guessTrue = True
         print("Game over, your number is " + str(compGuess) + " and it took " + str(guesses) + " tries!")
 ```
+
+# Floats and Fractions
+#### John Guttag - MIT Professor
