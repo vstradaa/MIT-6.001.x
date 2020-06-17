@@ -47,3 +47,8 @@ Binary is in base 2.
 To get an understanding of how this works let's look at how we represent a decimal number. 
 
  <code>130 is the same as (10**2) + (3) * (10 ** 1) + (0) * (10 ** 0)</code>
+
+So binary has a base of 2. So everything is a representation on bases of 2
+
+so 130 in base 2 would be (2 ** 5) + 0 * (2 ** 4) + 2 * (2 ** 3) + 0 + 0 + 0  each extra 0 representing 0 times the corresponding base to the nth number in order. 
+
