@@ -12,13 +12,12 @@ You can approximate a solution by incrementing by really small numbers. Subtract
 
 A better way to find numerical solutions is to do bissection searches which eliminate half the answers each time. It will basically guess and if the guess is too low, it will discard the numbers below that. And if too high, it will discard the numbers above. 
 
-## Examples
+## Bissection Search
 
 ```python
 # Bissection Search
 # Guess my num
 print("Pick a number between 0-100")
-
 guessTrue = False
 beginningNum = 0 
 endNum = 100
