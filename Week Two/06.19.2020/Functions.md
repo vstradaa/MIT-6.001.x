@@ -15,7 +15,7 @@ You typically know the input/output behavior
 
 It's the idea that once something is built, I don't need to know what's inside. As long I know how it works.
 
-# More
+## More
 Will achieve decomposition via functions and later on via classes
 
 We will also achieve abstraction by using function specifications and docstrings
