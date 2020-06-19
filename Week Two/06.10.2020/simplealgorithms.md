@@ -52,3 +52,15 @@ So binary has a base of 2. So everything is a representation on bases of 2
 
 so 130 in base 2 would be (2 ** 5) + 0 * (2 ** 4) + 2 * (2 ** 3) + 0 + 0 + 0  each extra 0 representing 0 times the corresponding base to the nth number in order. 
 
+## Floats and Binary
+
+When dealing with Floats, converting a number to Float might be exhaustive and sometimes conversion might only be done through approximation. 
+
+To convert a decimal float to binary you must first multiply the decimal with a base 2 to the power of a number that will make it all a whole number. You will then turn that number into binary. And divide the binary number by the binary number of the base 2 to the number you chose. 
+
+For example <code>.375</code> can be done by first multiplying that by 2 ** 3 which will give you 8. Find the binary version of (.375 * (2 ** 3)) and then divide it by the binary version of (2 ** 3) to get .375 in binary. 
+
+To learn more about floats in greater detail check out:
+* [Floats and Fractions (Binary)](https://www.youtube.com/watch?v=LpuPe81bc2w)
+
+
