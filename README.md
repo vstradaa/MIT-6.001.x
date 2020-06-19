@@ -8,4 +8,4 @@
 
 * [Simple Algorithms](https://github.com/vstradaa/MIT-6.001.x/blob/master/Week%20Two/06.10.2020/simplealgorithms.md)
 
-* [Functions](https://github.com/vstradaa/MIT-6.001.x/blob/master/Week%20Two/06.10.2020/functions.md)
+* [Functions](https://github.com/vstradaa/MIT-6.001.x/blob/master/Week%20Two/06.10.2020/Functions.md)
