@@ -38,3 +38,12 @@ It is important to note the scope of both. The scope of formal parameters is wit
 
 # Return vs Print
 
+If there is no explicit return the default return value will be of <code>None</code> in which case it will return nothing to the one that's calling the function. 
+
+You can only use a return inside of a function.
+
+You can only use it once per function. 
+
+The code inside a function but after the return statement will not be executed. 
+
+
