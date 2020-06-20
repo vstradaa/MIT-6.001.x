@@ -36,6 +36,8 @@ It is important to note the scope of both. The scope of formal parameters is wit
 
 ##### In actual sense, the formal parameter gets bound to the actual parameter when a function is called. It's like binding a value to a variable. So if you have a function with a formal parameter of x the actual parameter will be bound to the formal parameter of x. So x will now be usable within the function. But not outside. 
 
+#### It is also important to note that you can reference outside variables inside but you can not change them on the inside. The function will first check to see if a variable is inside before checking outside the scope to reference such a variable/data.
+
 # Return vs Print
 
 If there is no explicit return the default return value will be of <code>None</code> in which case it will return nothing to the one that's calling the function. 
