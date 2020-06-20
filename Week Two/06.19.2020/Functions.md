@@ -34,7 +34,7 @@ It is not required but highly recommended to use docstrings in order to describe
 
 It is important to note the scope of both. The scope of formal parameters is within the function only and the scope of actual paramters is outside of the function. When you are calling/invoking a function, you are passing an actual parameter into the function which then is used within the function. It will not change the value of the parameter. It will only take it in. 
 
-
+##### In actual sense, the formal parameter gets bound to the actual parameter when a function is called. It's like binding a value to a variable. So if you have a function with a formal parameter of x the actual parameter will be bound to the formal parameter of x. So x will now be usable within the function. But not outside. 
 
 # Return vs Print
 
